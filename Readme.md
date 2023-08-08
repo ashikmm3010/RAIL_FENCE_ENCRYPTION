@@ -13,3 +13,9 @@ The rail fence cipher (also called a zigzag cipher) is a form of transposition c
 * As a result, the rail matrix can be built appropriately. 
 * Once we have the matrix, we can use the same method of moving diagonally up and down alternately to determine the locations where messages should be inserted.
 * The cipher-text is then filled in row by row. After filling it out, we zigzag across the matrix to find the original text.
+
+## SOURCE CODE
+### main.py
+It contains the main framework for implementing encryption and decryption.
+### Functions.py
+Functions for encryption and decryption are programmed in this file.
